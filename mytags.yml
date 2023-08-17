@@ -1,12 +1,12 @@
 ---
-- hosts: 172.31.0.172
+- hosts: 172.31.31.5
   become: yes 
   tasks: 
   - name: install git
     apt:
       name: git
       state: present
-      
+
   - name: install tree
     apt:
       name: tree
