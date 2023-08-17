@@ -21,5 +21,5 @@
   - name: i want to install on red hat
     service:
      name: httpd
-     state: present
+     state: started
      when : ansible_os_family=="RedHat"   
